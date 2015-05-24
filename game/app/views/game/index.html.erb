@@ -1,0 +1,11 @@
+<h1> Game </h1>
+<h2> Meet The Players: </h2>
+<ul>
+	<% @players.each do |player| %>
+	<li> 
+		Name: <%= player.name %>
+		Health: <%= player.health %>
+
+	</li>
+	<% end %>
+</ul>
